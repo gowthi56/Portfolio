@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px #12bdff;
+    position: relative;
+    scroll-behavior: smooth;
+    position: fixed;
+    width: 99%;
+    top:0;
+
+
+}
+
+.logo {
+    color: #12bdff;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.logo:hover {
+    border: solid 1px #12bdff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a:hover {
+    color: #12bdff;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    padding: 7px;
+    font-family: bold;
+    border: solid 2px #12bdff;
+    background-color: black;
+    color: #12bdff
+}
+
+header button:hover {
+    color: black;
+    background-color: #12bdff;
+    cursor: pointer;
+}
+
+.mainsection {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px 0 200px;
+}
+.img1
+{
+    margin-top: 30px;
+}
+
+.mainsection button {
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn1 {
+    background-color: #12bdff;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn2 {
+    background-color: black;
+    color: #12bdff;
+    border: solid 1px #12bdff;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+
+}
+
+.name_heading {
+    color: #12bdff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 9px;
+}
+
+.social {
+    margin: 7px;
+}
+
+.social i {
+    margin: 10px;
+}
+
+.social a {
+    color: #12bdff;
+}
+
+.name {
+    margin: 5px;
+}
+
+.second {
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    border-top: solid 2px #12bdff;
+    border-bottom: solid 2px #12bdff;
+    height: 520px;
+}
+
+.biodata {
+    margin-top: 90px;
+    width: 310px;
+    margin-right: 250px;
+}
+
+section h6 {
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.shadow {
+    /* box-shadow: 0 0 20px 10px #12bdff !important; */
+    margin-top: 26px;
+    height: 450px;
+
+}
+
+.uxlogo {
+    background-color: #12bdff;
+    padding: 8px;
+    margin-left: 1px;
+    border-radius: 50%;
+}
+
+.btn3 {
+    padding: 4px;
+    margin-top: 10px;
+    margin-left: 7px;
+    background-color: #12bdff;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.services {
+    background-color: black;
+    color: aliceblue;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: solid 2px #12bdff;
+}
+
+.services h3:hover {
+    color: #12bdff;
+    cursor: pointer;
+}
+
+.card1 {
+    background-color: rgb(58, 54, 54);
+    color: aliceblue;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border: solid 1px #12bdff;
+}
+table td 
+{
+    border: solid #12bdff 1px;
+}
+h5{
+    font-size: medium;
+}
+h5 span{
+    margin-left: 5px;
+    font-size: small;
+}
+.maincard {
+width: 40%;
+margin-left: 440px;
+}
+
+.bullet {
+    margin-left: 5px;
+    color: #12bdff;
+}
+
+.contact {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.star-rating {
+    font-size: 24px; 
+    color: #12bdff
+}
+.forms{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forms input
+{
+    background-color: rgb(58, 54, 54);
+    color: aliceblue;  
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 1px #12bdff;
+    height: 25px;
+    width: 300px;
+    margin: 10px;
+
+}
+.forms textarea{
+    width:300px;
+    background-color:rgb(58, 54, 54) ;
+    margin: 10px;
+    border-radius:5px ;
+    border: solid 1px #12bdff;
+    padding: 7px;
+}
+.btn5
+{
+    background-color: #12bdff;
+    color: aliceblue;
+    width: 70px;
+    padding: 3px;
+    margin-right : 230px;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 600px) {
+  header
+  {
+    flex-direction: column;
+  }
+  .logo, ul, button
+  {
+    margin-right: 60px;
+  }
+  header *
+  {
+    margin-bottom: 10px;
+  }
+  main, .mainsection
+  {
+    flex-direction: column;
+  }
+  .mainsection
+  {
+    padding: 20px;
+    margin-top: 150px;
+  }
+  .social
+  {
+    text-align: center;
+  }
+  .second{
+    flex-direction: column;
+   height: 900px;
+  }
+
+  .shadow
+  {
+    margin-top: 50px;
+    margin-left: 45px;
+   
+  }
+  .biodata{
+    padding-bottom: 50px;
+    padding-left: 90px;
+  }
+  .services, .maincard{
+    flex-direction: column;
+  }
+  .maincard{
+    margin-left: 22px;
+  }
+ .maincard table{
+    margin-left: 70px;
+ }
+  .uxlogo i
+  {
+    margin-top: 10px;
+  }
+  .uxlogo
+  {
+margin-left: 120px;
+  }
+ 
+}
